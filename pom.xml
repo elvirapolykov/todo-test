@@ -6,8 +6,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
-		<selenium.version>3.14.0</selenium.version>
 		<testng.version>6.14.3</testng.version>
+		<selenium.version>3.14.0</selenium.version>
+		<webdrivermanager.version>3.0.0</webdrivermanager.version>
 	</properties>
 
 	<dependencies>
@@ -19,7 +20,7 @@
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
-			<version>3.0.0</version>
+			<version>${webdrivermanager.version}</version>
 		</dependency>
 		
 		<!-- TestNG -->
@@ -46,7 +47,7 @@
 			<version>3.0</version>
 		</dependency>
 	</dependencies>
-
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -70,5 +71,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	
 </project>
