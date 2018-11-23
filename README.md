@@ -1,6 +1,12 @@
 How to run the tests:
 =======
 
+
+**Prerequisites:**
+
+	Java 8 and Maven installed
+
+
 **Option #1:**
 
 	1. open terminal or command line
