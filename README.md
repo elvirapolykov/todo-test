@@ -11,7 +11,7 @@ How to run the tests:
 
 	1. open terminal or command line
 	2. change the current working directory to your local project
-	3. type: **mvn clean test**
+	3. type: mvn clean test
 	
 **Option #2:**
 
