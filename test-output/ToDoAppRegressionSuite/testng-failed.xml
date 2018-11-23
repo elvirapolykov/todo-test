@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [ToDoAppRegressionSuite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" verbose="10" name="Regression(failed)">
+    <classes>
+      <class name="com.todo.automation.regression.ToDoRegressionSuite">
+        <methods>
+          <include name="testCompleteTodo"/>
+          <include name="setUp"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.todo.automation.regression.ToDoRegressionSuite -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [ToDoAppRegressionSuite] -->

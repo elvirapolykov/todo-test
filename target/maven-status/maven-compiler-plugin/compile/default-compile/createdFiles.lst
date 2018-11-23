@@ -1,0 +1,7 @@
+com\todo\automation\model\AddItemComponent.class
+com\todo\automation\model\ItemsListComponent.class
+com\todo\automation\model\ToDoPage.class
+com\todo\automation\regression\FunctionalTest.class
+com\todo\automation\regression\ToDoRegressionSuite.class
+com\todo\automation\model\ToDoPage$1.class
+com\todo\automation\model\PageObject.class
